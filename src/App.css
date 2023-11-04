@@ -1,0 +1,250 @@
+.App {
+  text-align: center;
+}
+
+.pic1intro {
+  width: 600px;
+}
+
+.pic2intro {
+  width: 910px;
+}
+
+.logout-button {
+  font-size: 24px;
+}
+
+.nav-bar {
+  margin: 0;
+  margin-top: -165px;
+  width: 100%;
+  height: 80px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 8px;
+  justify-content: right;
+}
+
+.bloat-babe-nav-pic {
+  margin-top: -70px;
+  width: 300px;
+  margin-left: 10px;
+  justify-content: left !important;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  margin: 10px;
+  font-size: 25px;
+  justify-content: right;
+}
+
+.links {
+  color: white;
+  text-decoration: none;
+  margin: 10px;
+  font-size: 25px;
+  justify-content: right;
+}
+
+.createPostPage {
+  width: 100%;
+  height: calc(100vh - 80px);
+  display: grid;
+  place-items: center;
+}
+
+
+
+.login-page {
+  width: 100vw;
+  height: calc(100vh - 80px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.right-side-login-page {
+width: 400px;
+margin-right: 50px;
+align-items: center;
+}
+
+.login-logo-pic {
+  width: 700px;
+  margin-top: -20px;
+  margin-bottom: -460px;
+  margin-left: 340px;
+}
+
+.login-header {
+  font-size: 35px;
+  margin-bottom: 4px;
+}
+
+.login-subheader {
+  font-size: 20px;
+  margin-bottom: 4px;
+}
+
+
+
+
+/* From "Build a Blog Website - React and Firebase Tutorial" by PedroTech */
+.login-with-google-btn {
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.3s;
+  padding: 5px 16px 12px 42px;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.04), 0 1px 1px rgba(0, 0, 0, 0.25);
+  color: #757575;
+  font-size: 25px;
+  font-weight: 500;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTgiIGhlaWdodD0iMTgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj48cGF0aCBkPSJNMTcuNiA5LjJsLS4xLTEuOEg5djMuNGg0LjhDMTMuNiAxMiAxMyAxMyAxMiAxMy42djIuMmgzYTguOCA4LjggMCAwIDAgMi42LTYuNnoiIGZpbGw9IiM0Mjg1RjQiIGZpbGwtcnVsZT0ibm9uemVybyIvPjxwYXRoIGQ9Ik05IDE4YzIuNCAwIDQuNS0uOCA2LTIuMmwtMy0yLjJhNS40IDUuNCAwIDAgMS04LTIuOUgxVjEzYTkgOSAwIDAgMCA4IDV6IiBmaWxsPSIjMzRBODUzIiBmaWxsLXJ1bGU9Im5vbnplcm8iLz48cGF0aCBkPSJNNCAxMC43YTUuNCA1LjQgMCAwIDEgMC0zLjRWNUgxYTkgOSAwIDAgMCAwIDhsMy0yLjN6IiBmaWxsPSIjRkJCQzA1IiBmaWxsLXJ1bGU9Im5vbnplcm8iLz48cGF0aCBkPSJNOSAzLjZjMS4zIDAgMi41LjQgMy40IDEuM0wxNSAyLjNBOSA5IDAgMCAwIDEgNWwzIDIuNGE1LjQgNS40IDAgMCAxIDUtMy43eiIgZmlsbD0iI0VBNDMzNSIgZmlsbC1ydWxlPSJub256ZXJvIi8+PHBhdGggZD0iTTAgMGgxOHYxOEgweiIvPjwvZz48L3N2Zz4=);
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: 12px 11px;
+}
+.login-with-google-btn:hover {
+  box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.04), 0 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* color when making active */
+.login-with-google-btn:active {
+  background-color: #eeeeee;
+}
+
+.login-with-google-btn:focus {
+  outline: none;
+  box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.04), 0 2px 4px rgba(0, 0, 0, 0.25),
+    0 0 0 3px #c8dafc;
+}
+.login-with-google-btn:disabled {
+  filter: grayscale(100%);
+  background-color: #ebebeb;
+  box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.04), 0 1px 1px rgba(0, 0, 0, 0.25);
+  cursor: not-allowed;
+}
+/* End of imported CSS from "Build a Blog Website - React and Firebase Tutorial" by PedroTech */
+
+
+.homePage {
+  width: 100%;
+  min-height: calc(100vh - 80px);
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.indiv-post {
+  width: 800px;
+  background-color: #ADD8E6;
+  border-radius: 15px;
+  margin: 25px;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.2);
+}
+
+
+.post-title {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.post-ingred {
+  margin-bottom: 15px;
+}
+
+.post-instruct {
+  margin-bottom: 15px;
+}
+
+.ingred-title {
+  font-weight: bold;
+}
+
+.instruct-title {
+  font-weight: bold;
+}
+
+.username {
+  margin-right: -50px;
+  justify-content: right;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+
+.gf-pic {
+  margin-top: 5px;
+  width: 30px;
+  height: 30px;
+}
+
+.df-pic {
+  width: 39px;
+  height: 39px;
+  margin-left: -5px;
+}
+
+.nf-pic {
+  width: 39px;
+  height: 39px;
+}
+
+.vegan-pic {
+  width: 33px;
+  height: 32px;
+  margin-top: 4px;
+  margin-right: 4px;
+}
+
+.sesame-pic {
+  width: 42px;
+  margin-top: -1px;
+}
+
+.image-row {
+  display: flex;
+ justify-content: right;
+}
+
+
+.input-search {
+  padding: 0.4rem; 
+  font-size: 1.3rem;
+  border: black;
+
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  background-color: rgb(250, 250, 250);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.button-search {
+  padding: 0.4rem;
+  font-size: 1.3rem;
+  border: black;
+
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: rgb(250, 250, 250);
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.button-search:hover {
+  background-color: rgb(220, 220, 220);
+}

@@ -1,5 +1,5 @@
 # Bloat Babe
-Bloat Babe is a web application for sharing and discovering recipies that are IBS and stomach issue friendly. It was created using React and Firebase, and styled with a mix of classic CSS and Chakra UI.
+Bloat Babe is a web application for sharing and discovering recipes that are IBS and stomach issue friendly. It was created using React and Firebase, and styled with a mix of classic CSS and Chakra UI.
 
 # Features and Preview
 Bloat Babe features an intro page that gives an overview of the app as the root page.

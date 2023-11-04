@@ -1,4 +1,43 @@
-# Getting Started with Create React App
+# Bloat Babe
+Bloat Babe is a web application for sharing and discovering recipies that are IBS and stomach issue friendly. It was created using React and Firebase, and styled with a mix of classic CSS and Chakra UI.
+
+# Features and Preview
+Bloat Babe features an intro page that gives an overview of the app as the root page.
+<img width="1437" alt="Screenshot 2023-11-02 at 7 07 24 PM" src="https://github.com/cassiestephen/bloat-babe/assets/125167508/a0a73871-f039-4ebe-b6ae-326760e1f1f0">
+
+        
+
+The user can navigate through the different pages using a nav bar. When the user is not authenticated, a login page is accessible. Google email authentication is used, and the login button gets replaced with a logout button when the authentication is complete.
+<img width="1434" alt="Screenshot 2023-11-02 at 7 07 40 PM" src="https://github.com/cassiestephen/bloat-babe/assets/125167508/80f237cc-52c7-417f-af6c-81b091a61ef8">
+
+       
+
+The feed page can be accessed by any user, whether authenticated or not. It features a search bar to filter through recipes, and each recipe posted has icons symbolizing which dietary restrictions it meets.
+<img width="1436" alt="Screenshot 2023-11-02 at 7 00 54 PM" src="https://github.com/cassiestephen/bloat-babe/assets/125167508/09742c43-9caa-4fe3-955a-16f3ac775fe9">
+<img width="1436" alt="Screenshot 2023-11-02 at 7 01 23 PM" src="https://github.com/cassiestephen/bloat-babe/assets/125167508/d12987a3-2b82-4ecb-b6c0-493a9bf3cbc2">
+
+        
+
+When authenticated, the user has the option to post a recipe. They can fill out a form with a title, ingredients, instructions, notes, and dietary restriction information.
+<img width="1438" alt="Screenshot 2023-11-02 at 7 08 11 PM" src="https://github.com/cassiestephen/bloat-babe/assets/125167508/17361b04-1e3c-4d19-b9e1-76cc26342fee">
+<img width="1438" alt="Screenshot 2023-11-02 at 7 08 11 PM" src="https://github.com/cassiestephen/bloat-babe/assets/125167508/ebff8944-ce83-47aa-932e-128f2d3f7f4d">
+
+       
+
+
+
+
+# Platforms
+Currently, Bloat Babe runs only as a Web Application
+
+
+
+# Credits
+The login with google button uses CSS from the following Youtube Video:
+PedroTech, "Build a Blog Website - React and Firebase Tutorial" https://www.youtube.com/watch?v=zL0dKETbCNE
+Accessed October 5, 2023
+
+# Deploying Bloat Babe on your own device
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
